@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SimpleSite_Regression" duration-ms="9552" started-at="2016-03-10T22:01:41Z" finished-at="2016-03-10T22:01:50Z">
+    <groups>
+    </groups>
+    <test name="Local Firefox Test" duration-ms="9552" started-at="2016-03-10T22:01:41Z" finished-at="2016-03-10T22:01:50Z">
+      <class name="com.acxiom.tests.mysel">
+        <test-method status="PASS" signature="beforemethod(java.lang.String)[pri:0, instance:com.acxiom.tests.mysel@58ceff1]" name="beforemethod" is-config="true" duration-ms="8045" started-at="2016-03-10T16:01:41Z" finished-at="2016-03-10T16:01:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lfirefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="hey()[pri:0, instance:com.acxiom.tests.mysel@58ceff1]" name="hey" duration-ms="1487" started-at="2016-03-10T16:01:49Z" finished-at="2016-03-10T16:01:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hey -->
+      </class> <!-- com.acxiom.tests.mysel -->
+    </test> <!-- Local Firefox Test -->
+  </suite> <!-- SimpleSite_Regression -->
+</testng-results>

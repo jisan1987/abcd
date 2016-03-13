@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [SimpleSite_Regression]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="Grid Chrome Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.acxiom.tests.mysel">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="beforemethod"/>
+          <include name="hey"/>
+        </methods>
+      </class> <!-- com.acxiom.tests.mysel -->
+    </classes>
+  </test> <!-- Grid Chrome Test(failed) -->
+</suite> <!-- Failed suite [SimpleSite_Regression] -->

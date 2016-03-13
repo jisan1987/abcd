@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SimpleSite_Regression]" parallel="tests">
+  <parameter name="browser" value="Lfirefox"/>
+  <test name="Local Firefox Test">
+    <parameter name="browser" value="Lfirefox"/>
+    <classes>
+      <class name="com.acxiom.tests.mysel"/>
+    </classes>
+  </test> <!-- Local Firefox Test -->
+</suite> <!-- Failed suite [SimpleSite_Regression] -->

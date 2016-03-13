@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SimpleSite_Regression" parallel="tests" thread-count="5">
+
+<!-- Local Firefox  -->
+<test name="Local Firefox Test">
+		<parameter name="browser" value= "Lfirefox" />
+		<classes>
+			<class name="com.acxiom.tests.mysel" />
+		</classes>
+	</test>
+
+<!-- Local chrome
+	<test name="Local Chrome Test">
+		<parameter name="browser" value="Lchrome" />
+		<classes>
+			<class name="com.acxiom.tests.mysel" />
+		</classes>
+	</test>
+	 -->	
+<!-- Remote Firefox 
+<test name="Grid Firefox Test">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.acxiom.tests.mysel" />
+		</classes>
+	</test>
+-->	
+
+<!-- Remote chrome 
+<test name="Grid Chrome Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.acxiom.tests.mysel" />
+		</classes>
+	</test>
+	-->
+</suite>
